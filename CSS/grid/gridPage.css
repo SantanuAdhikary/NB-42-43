@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color: brown;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: 15vh 70vh 15vh;
+}
+
+nav{
+    border: 3px solid black;
+    grid-column: span 2;
+}
+.left{
+    border: 3px solid black;
+}
+.right{
+    border: 3px solid black;
+}
+footer{
+    border: 3px solid black;
+    grid-column: span 2;
+}

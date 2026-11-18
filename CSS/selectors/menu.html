@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu table</title>
+
+    <style>
+         td{
+            text-align: center;
+            font-size: 20px;
+           
+         }
+
+         th{
+            font-size: 24px;
+         }
+         table{
+            height: 400px;
+            
+         }
+
+         caption{
+            font-size: 30px;
+            font-weight: bold;
+            color:darkred;
+         }
+
+         .veg{
+            background-color: lightgreen;
+         }
+
+         .nonveg{
+            background-color: lightcoral;
+         }
+
+         .thead{
+            background-color: darkred;
+            color:white;
+         }
+
+         #tfoot{
+            background-color: lightsalmon;
+         }
+
+         *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         }
+    </style>
+</head>
+<body>
+
+  <table  width="900" border="1">
+
+    <caption>my restaurant menu table</caption>
+     <tr class="thead">
+        <th colspan="4">Today's Menu</th>
+     </tr>
+
+     <tr class="thead">
+        <th>Category</th>
+        <th>Dish</th>
+        <th>Type</th>
+        <th>Price</th>
+     </tr>
+
+     <tr>
+        <td rowspan="3">Starters</td>
+        <td>Veg Spring Roll</td>
+        <td class="veg">Veg</td>
+        <td>₹120</td>
+     </tr>
+
+     <tr>
+        <td>Paneer Tikka</td>
+        <td class="veg">Veg</td>
+        <td>₹180</td>
+     </tr>
+
+     <tr>
+        <td>Chicken Wings</td>
+        <td class="nonveg">Non-Veg</td>
+        <td>₹220</td>
+     </tr>
+
+     <tr>
+        <td rowspan="3">Main Course</td>
+        <td>Veg Biryani</td>
+        <td class="veg">Veg</td>
+        <td>₹200</td>
+     </tr>
+
+     <tr>
+        <td>Paneer Butter Masala</td>
+        <td class="veg">Veg</td>
+        <td>₹220</td>
+     </tr>
+
+     <tr>
+        <td>Chicken Biryani</td>
+        <td class="nonveg">Non-Veg</td>
+        <td>₹280</td>
+     </tr>
+
+     <tr id="tfoot">
+        <th colspan="3">Chef's Special</th>
+        <th>₹350</th>
+     </tr>
+  </table>
+    
+</body>
+</html>

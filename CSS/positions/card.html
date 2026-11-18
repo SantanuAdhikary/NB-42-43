@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card task</title>
+
+    <style>
+         *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+         }
+
+         .outer{
+            height: 100vh;
+            background-image: url("https://getwallpapers.com/wallpaper/full/6/a/1/47229.jpg");
+            background-size: cover;
+            background-position: top;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+
+         .inner{
+            height: 350px;
+            width: 480px;
+            /* background-color: white; */
+            background-image: url("https://i.pinimg.com/736x/21/fb/c5/21fbc51f80876ec00ca761502b9faea4.jpg");
+            background-size: cover;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap:10px;
+            position: relative;
+        }
+        .inner > img{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top:-100px;
+         }
+
+         .inner h1{
+            font-size: 50px;
+            color: white;
+            text-shadow: 3px 3px 3px red;
+            text-transform: uppercase;
+         }
+
+         .inner p{
+            font-size: 20px;
+            font-weight: bold;
+            color:darkred;
+         }
+
+         .inner > button{
+            padding: 10px 20px;
+            background-color: blue;
+            border: none;
+            color:white;
+            border-radius: 10px;
+            font-size: 19px;
+         }
+    </style>
+
+</head>
+<body>
+    <div class="outer">
+         <div class="inner">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvUvhPmQliUFKJp40P7dGvSv1BfdpfudzTvCuqyrSvJA&s=10" alt="">
+              <h1>john snow</h1>
+              <p>UI/UX Designer & Creative Developer</p>
+              <button>view profile</button>
+         </div>
+    </div>
+</body>
+</html>

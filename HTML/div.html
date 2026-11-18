@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div tag in html</title>
+
+    <style>
+
+        #nav{
+            background-color: lightcoral;
+            height: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        ul{
+            display: flex;
+            gap:30px;
+            list-style: none;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        #main{
+            background-color: lightgreen;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        #section{
+            height: 300px;
+            background-color: azure;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .card{
+            height: 220px;
+            width: 300px;
+            background-color: white;
+            border-radius: 15px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 2px 4px 8px gray;
+        }
+
+        img{
+            height: 100px;
+        }
+
+        #nav span{
+            font-style: italic;
+            color:white;
+        }
+
+      #main  span{
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: underline;
+            background-color: yellow    ;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="nav">
+         
+        <h1> <span>My</span>Logo</h1>
+
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </div>
+
+    <div id="main">
+
+         <h1>welcome to my webtech website</h1>
+         <p>here you will learn about <span>html, css,javascript,react.</span> </p>
+         <button>get started</button>
+    </div>
+
+    <div id="section">
+
+        <div class="card">
+
+             <img src="https://cdn.pixabay.com/photo/2024/02/12/16/05/siguniang-mountain-8568913_1280.jpg" alt="">
+             <h2>i am card</h2>
+
+             <a href="">about mountain</a>
+        </div>
+        <div class="card">
+
+              <img src="https://thumbs.dreamstime.com/b/sea-water-ocean-wave-surfing-surface-colorful-vibrant-sunset-barrel-shape-124362369.jpg" alt="">
+             <h2>i am card</h2>
+
+             <a href="">about sea</a>
+        </div>
+        <div class="card">
+
+             <img src="https://media.cntraveler.com/photos/571945e380cf3e034f974b7d/master/pass/waterfalls-Seljalandsfoss-GettyImages-457381095.jpg" alt="">
+             <h2>i am card</h2>
+
+             <a href="">about waterfall</a>
+        </div>
+
+    </div>
+    
+</body>
+</html>

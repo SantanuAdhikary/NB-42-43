@@ -1,0 +1,28 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#topic{
+    font-size: 50px;
+    color:red;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: -4px 5px 4px blue;
+}
+
+#para1{
+    text-align: justify;
+    word-spacing: 5px;
+    text-indent: 100px;
+    line-height: 40px;
+}
+
+#myName{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}

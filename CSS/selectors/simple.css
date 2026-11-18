@@ -1,0 +1,46 @@
+
+/* 1. tagname selector */
+
+nav{
+    background-color: lightgreen;
+    height: 120px;
+}
+
+header{
+    background-color: lightpink;
+    height: 250px;
+}
+
+li{
+    color:blue;
+}
+
+/* 2. id selector */
+
+#logo{
+    color:red;
+}
+
+/* 3. class selector */
+
+.product{
+
+ height: 200px;
+ width: 300px;
+ background-color: lightgrey;
+}
+
+
+/* 4. universal selector */
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+/* 5. group selector  */
+
+
+.product , header{
+    text-align: center;
+}

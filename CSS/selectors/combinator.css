@@ -1,0 +1,88 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: darkred;
+    height: 130px;
+}
+
+nav h1{
+    color:white;
+}
+
+
+nav  li{
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    list-style: none;
+}
+
+
+main > h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+main > ol > li{
+    font-size: 21px;
+}
+
+
+.box1{
+    margin: 30px auto;
+    height: 500px;
+    width: 500px;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2{
+    height: 60%;
+    width: 80%;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    height: 60%;
+    width: 80%;
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box1 > h1{
+    text-transform: uppercase;
+}
+
+.box1 > .box2 > h1{
+    text-transform: capitalize;
+}
+
+
+section  #list4{
+    background-color: pink;
+}
+
+section #list4+li{
+    background-color: skyblue;
+}
+
+section #list6{
+    background-color: lightslategray;
+}
+
+section #list6~li{
+  background-color: darksalmon;
+}

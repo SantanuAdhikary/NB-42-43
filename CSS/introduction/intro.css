@@ -1,0 +1,23 @@
+
+h3{
+    color : purple ; 
+    text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h4{
+    text-transform: uppercase;
+    color : blue;
+}
+
+p{
+    font-size: 30px;
+     font-weight: bold;
+     font-family: "Playwrite CA Guides", cursive;
+}
+
+h1{
+    font-size: 60px;
+    font-style: italic;
+   
+}

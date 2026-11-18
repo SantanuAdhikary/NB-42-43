@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+
+    <style>
+         *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+         }
+
+         .outer{
+            height: 100vh;
+            background: linear-gradient(orangered,yellow);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+
+         .inner{
+            height: 70%;
+            width: 60%;
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px 40px;
+         }
+
+         .red{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border-radius: 15px;
+
+            position: relative;
+            left:50px;
+            top:50px;
+            z-index: 10;
+        }
+        .green{
+            height: 100px;
+            width: 100px;
+            border-radius: 15px;
+            background-color: green;
+            position: relative;
+            z-index: 5;
+        }
+        .black{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            border-radius: 15px;
+            position: relative;
+            bottom:70px;
+            left:70px;
+            z-index: 7 ; 
+         }
+    </style>
+</head>
+<body>
+    
+    <div class="outer">
+         <div class="inner">
+             <div class="red"></div>
+             <div class="green"></div>
+             <div class="black"></div>
+         </div>
+    </div>
+</body>
+</html>

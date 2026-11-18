@@ -1,0 +1,85 @@
+
+*{
+   padding: 0; 
+   margin: 0;
+   box-sizing: border-box;
+}
+
+nav{
+    height: 100px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav >ul{
+    display: flex;
+    justify-content: space-around;
+    /* border: 3px solid red; */
+    list-style: none;
+    gap:20px;
+}
+nav > ul > li{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav li:hover{
+    color : orangered;
+}
+
+main{
+    height: 200px;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+main > h1{
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+}
+
+main > p{
+    text-transform: capitalize;
+    font-style: italic;
+    letter-spacing: 1.6px;
+}
+
+main > button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+section{
+    height: calc(100vh - 300px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: red; */
+}
+
+section > article{
+    height: 180px;
+    width: 320px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}

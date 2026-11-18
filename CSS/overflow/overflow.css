@@ -1,0 +1,43 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.outer{
+    height: 100vh;
+    background: linear-gradient(orangered,yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer > .inner{
+    height: 400px;
+    width: 300px;
+    background:linear-gradient(white,skyblue);
+    border-radius: 15px;
+    padding: 10px 20px;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+
+    overflow-y: scroll;
+}
+
+.inner > h1{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.inner > p{
+    text-align: justify;
+   
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}

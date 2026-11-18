@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh;
+    background: linear-gradient(red,black);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header > .box1{
+    height: 350px;
+    width: 350px;
+    border: 4px solid white;
+}
+header > .box2{
+    height: 350px;
+    width: 350px;
+    border: 4px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.box2 > .spinner{
+    height: 150px;
+    width: 150px;
+    border-right: 4px solid green;
+    border-left: 4px solid green;
+
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+
+
+.box1 > .circle{
+    height: 100px;
+    width: 100px;
+    border: 4px solid white;
+    border-radius: 20px;
+    background-color: darkorange;
+   
+   animation: rotateBox 2s linear infinite;
+}
+
+
+@keyframes rotateBox {
+    from{
+         transform: rotate(0deg);
+        }
+        to{
+        transform: rotate(360deg);
+        border-radius: 50%;
+
+    }
+}
+
+
+
+
+@keyframes spin {
+    from{
+           transform: rotate(0deg);
+        }
+        to{
+        transform: rotate(360deg);
+
+    }
+}
+
+
+main{
+    height: 100vh;
+    background:linear-gradient(black,red);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main > .orbit{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 4px solid white;
+    animation: spin 2s linear infinite;
+}
+
+.orbit > .planet{
+    height: 100px;
+    width: 100px;
+    border: 4px solid white;
+    border-radius: 50%;
+
+}
+
+
+.right{
+    height: 400px;
+    width: 400px;
+    /* border: 5px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.right > .dot{
+    height: 60px;
+    width: 60px;
+    /* border: 3px solid white; */
+    border-radius: 50%;
+    animation: up_down 3s ease-in infinite alternate;
+}
+
+#dot1{
+    background-color: white;
+}
+#dot2{
+    background-color: pink;
+    animation-delay: 0.1s;
+}
+#dot3{
+    background-color: blue;
+    animation-delay: 0.2s;
+}
+#dot4{
+    background-color: green;
+    animation-delay: 0.3s;
+}
+#dot5{
+    background-color: lawngreen;
+    animation-delay: 0.4s;
+}
+
+@keyframes up_down {
+    from{
+      transform: translateY(-70px);
+    }
+    to{
+        transform: translateY(70px);
+
+    }
+}

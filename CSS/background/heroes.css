@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+section > h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    color:white;
+    text-shadow: 3px 4px 5px black;
+}
+
+#ironman{
+    background-image: url("https://wallpapercg.com/media/ts_2x/27260.webp");
+
+}
+#captain{
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_2t/24354.jpg");
+}
+
+#thor{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images6/Thor-Wallpaper-Desktop.jpg");
+}
+
+#hulk{
+    background-image: url("https://wallpaperswide.com/download/green_hulk_superhero-wallpaper-3840x2160.jpg");
+}
+
+#spiderman{
+    background-image: url("https://m.gettywallpapers.com/wp-content/uploads/2021/05/Spider-Man-Wallpaper-4k.jpg");
+}
